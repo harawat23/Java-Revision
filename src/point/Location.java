@@ -1,14 +1,10 @@
-import point.ComparePoint;
-import point.Point;
+package point;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Location implements Cloneable, Serializable {
+public class Location implements Cloneable, Serializable { //never serialize static data types
     public ArrayList<Point> arr=new ArrayList<>();
 
     public Location(Point ...l){

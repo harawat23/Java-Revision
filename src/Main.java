@@ -1,11 +1,12 @@
 import point.ComparePoint;
+import point.Location;
 import point.Point;
 import point.Point3D;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.time.*;
+import java.util.*;
+
 /*
 * Implementation of methods like compareTo, compare, toString and equals.
 * Equals method is used to highlight some issue
