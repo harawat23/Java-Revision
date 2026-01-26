@@ -1,0 +1,5 @@
+What makes sealed class different from the normal class ?
+Sealed class only allows particular classes to extend it.
+Previously either all classes would be allowed or none would be allowed.
+
+The classes which extend can only have final or non-sealed in definition of it.
